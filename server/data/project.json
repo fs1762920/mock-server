@@ -1,0 +1,72 @@
+{
+    "mcvv": [
+        {
+            "id": "qweeybdsa-qebsha",
+            "url": "/getWngInfo",
+            "label": "車両諸元情報取得",
+            "method": "GET",
+            "fieldMap": [
+                {
+                    "id": "5waew1235qe",
+                    "name": "jerry",
+                    "params" : [
+                        {
+                            "name": "firstName",
+                            "value": "jerry"
+                        }
+                    ],
+                    "body": "{\n\t\"phoneNumber\": \"13291391298\"\n}",
+                    "response": "{\n\t\"resultCode\": \"200E00\",\n\t\"vehicleUserList\": [\n\t\t{\n\t\t\t\"userId\": \"sssss\",\n\t\t\t\"usherId\": \"AaBbCcDdEe80888AaBbCcDdEe80888AaBbCcDdEe\",\n\t\t\t\"familyName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeJohno\",\n\t\t\t\"firstName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEePeter\",\n\t\t\t\"familyNameKana\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"middleName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"firstNameKana\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"secondLastName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"sex\": \"1\",\n\t\t\t\"zipCode\": \"11253500\",\n\t\t\t\"address1\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"address2\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"address3\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"city\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"state\": \"AB\",\n\t\t\t\"country\": \"US\",\n\t\t\t\"mobilePhoneNumber\": {\n\t\t\t\t\"e164\": \"+818012345678\",\n\t\t\t\t\"original\": \"080-1234-5678\",\n\t\t\t\t\"national\": \"080-1234-5678\",\n\t\t\t\t\"international\": \"+81 80-1234-5678\"\n\t\t\t},\n\t\t\t\"mailAddress\": \"123@.com\",\n\t\t\t\"mobilePhoneSelectLanguage\": \"en\",\n\t\t\t\"salesName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"storeName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"roleDivision\": \"1\",\n\t\t\t\"internalVin\": \"00125\",\n\t\t\t\"vin\": \"AaBbCcDdEe1231567\",\n\t\t\t\"registrationNumber\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"carModel\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"lastServicingDealer\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe1\",\n\t\t\t\"bodyColor\": \"white\",\n\t\t\t\"initialRegistration\": \"2022/05\",\n\t\t\t\"wng\": \"1\",\n\t\t\t\"vhr\": \"1\",\n\t\t\t\"helpnet\": \"1\"\n\t\t}\n\t]\n}"
+                },
+                {
+                    "id": "fad4311gsdas",
+                    "name": "tom",
+                    "params" : [
+                        {
+                            "name": "firstName",
+                            "value": "tom"
+                        },
+                        {
+                            "name": "lastName",
+                            "value": "jack"
+                        }
+                    ],
+                    "body": "{\n\t\"phoneNumber\": \"ddd\"\n}",
+                    "response": "{\n\t\"resultCode\": \"400M00\",\n\t\"message\": \"params is invalid!\"\n}"
+                }
+            ]
+        },
+        {
+            "id": "jewasbda-dqnda0qendas",
+            "url": "/getVehicleSpecifications",
+            "label": "WNG情報取得",
+            "method": "GET",
+            "fieldMap": [
+                {
+                    "id": "tey231gsddfadew",
+                    "name": "user_2",
+                    "params" : [
+                        {
+                            "name": "userId",
+                            "value": 2
+                        }
+                    ],
+                    "body": "",
+                    "response": "{\n\t\"resultCode\": \"200E00\",\n\t\"vehicleUserList\": [\n\t\t{\n\t\t\t\"userId\": \"sssss\",\n\t\t\t\"usherId\": \"AaBbCcDdEe80888AaBbCcDdEe80888AaBbCcDdEe\",\n\t\t\t\"familyName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeJohno\",\n\t\t\t\"firstName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEePeter\",\n\t\t\t\"familyNameKana\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"middleName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"firstNameKana\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"secondLastName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"sex\": \"1\",\n\t\t\t\"zipCode\": \"11253500\",\n\t\t\t\"address1\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"address2\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"address3\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"city\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"state\": \"AB\",\n\t\t\t\"country\": \"US\",\n\t\t\t\"mobilePhoneNumber\": {\n\t\t\t\t\"e164\": \"+818012345678\",\n\t\t\t\t\"original\": \"080-1234-5678\",\n\t\t\t\t\"national\": \"080-1234-5678\",\n\t\t\t\t\"international\": \"+81 80-1234-5678\"\n\t\t\t},\n\t\t\t\"mailAddress\": \"123@.com\",\n\t\t\t\"mobilePhoneSelectLanguage\": \"en\",\n\t\t\t\"salesName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"storeName\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"roleDivision\": \"1\",\n\t\t\t\"internalVin\": \"00125\",\n\t\t\t\"vin\": \"AaBbCcDdEe1231567\",\n\t\t\t\"registrationNumber\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"carModel\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe\",\n\t\t\t\"lastServicingDealer\": \"AaBbCcDdEeAaBbCcDdEeAaBbCcDdEeAaBbCcDdEe1\",\n\t\t\t\"bodyColor\": \"white\",\n\t\t\t\"initialRegistration\": \"2022/05\",\n\t\t\t\"wng\": \"1\",\n\t\t\t\"vhr\": \"1\",\n\t\t\t\"helpnet\": \"1\"\n\t\t}\n\t]\n}"
+                },
+                {
+                    "id": "jgfyetrt343532",
+                    "name": "user_1",
+                    "params" : [
+                        {
+                            "name": "userId",
+                            "value": 1
+                        }
+                    ],
+                    "body": "",
+                    "response": "{\n\t\"resultCode\": \"400M00\",\n\t\"message\": \"params is invalid!\"\n}"
+                }
+            ]
+        }
+    ]
+}

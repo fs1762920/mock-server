@@ -1,0 +1,82 @@
+.doc-form {
+  padding: 30px;
+  .form-head {
+    .form-sumit {
+      // float: right;
+      width: 100%;
+      margin-left: 10px;
+    }
+    .ant-form-item-control-input-content {
+      display: flex;
+    }
+  }
+  .form-body {
+    .form-body-head {
+      height: 60px;
+      line-height: 60px;
+      display: flex;
+      .form-body-head_title {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+    }
+    .case-body {
+      .case-select {
+        display: flex;
+        height: 32px;
+        .case-status {
+          margin-right: 10px;
+        }
+        .ant-btn {
+          margin-left: 6px;
+        }
+      }
+      .case-request {
+        width: 100%;
+        padding: 10px;
+        .case-request_title {
+          font-size: 1rem;
+        }
+        .case-request_body {
+          .json-area {
+            padding: 10px 0;
+          }
+          table {
+            .ant-form-item {
+              margin: 0 !important;
+              padding: 4px;
+            }
+            .anticon-minus-circle {
+              width: 20px;
+              height: 20px;
+              margin-top: 11px;
+              color: rgb(255, 31, 31);
+              svg {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+      .case-response {
+        width: 100%;
+        padding: 10px;
+        .case-response_title {
+          font-size: 1rem;
+        }
+        .case-response_body {
+          .json-area {
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.document-empty {
+  .ant-empty {
+    margin-top: calc((100vh - 205px) * (1 - 0.618));
+  }
+}
